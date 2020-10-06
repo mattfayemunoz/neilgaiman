@@ -20,21 +20,31 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   line-height: 1.65;
-  color: #333;
+  color: #ffffff;
 }
 
 p {margin-bottom: 1.15rem;}
+
+p {
+  font-size: 1em;
+  line-height: 1.4em;
+}
 
 h1, h2, h3, h4, h5 {
   margin: 2.75rem 0 1.05rem;
   font-family: 'itc-avant-garde-gothic-pro', sans-serif;
   font-weight: 400;
   line-height: 1.15;
+  color: #E6007E;
+  -webkit-text-stroke-width: 0.8px;
+  -webkit-text-stroke-color: white;
 }
+
+
 
 h1 {
   margin-top: 0;
-  font-size: 3.052em;
+  font-size: 1.8em;
 }
 
 h2 {font-size: 2.441em;}
