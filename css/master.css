@@ -3,6 +3,11 @@
   background-color: #ffffff;
   padding: 40px 10px;
   position: fixed;
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+  width: 30px;
+  height: 100%;
+  min-height: 800px;
 }
 
 /* Style the header links */
@@ -42,26 +47,24 @@
 }
 
 /* Float the link section to the right */
-.header-right {
-  float: left;
-}
+
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 500px) {
   .header a {
-    float: none;
-    display: block;
-    text-align: left;
+
   }
-  .header-right {
-    float: none;
-  }
+
 }
 
 body{
   background-color: #E6007E;
-
 }
+
+body#auteur {
+  background-color: #59C0ED;
+}
+
 
 p{
   text-align: justify;
@@ -82,9 +85,13 @@ h1{
     margin-left: 140px;
     margin-right: 80px;
     margin-top: 60px;
-    width: 534px ;
-    height: 846px ;
+    width: 396px ;
+    height: 604px ;
     }
+
+
+
+
 
     .div-categoryContainer{
    display : flex;
@@ -96,12 +103,21 @@ h1{
   .paragraph-right {
     flex : 6;
     margin-top : 0px;
+    height: 100vh;
+    overflow-y: scroll;
   }
 
-  .header{
-  writing-mode: vertical-rl;
-  text-orientation: sideways;
-  width: 30px;
-  height: 100%;
+  .pagination {
+    font-size: 2em;
+    background: #E6007E;
+    float:right;
+    max-width: 70px;
 
-}
+  }
+
+  .pagination::before{
+    content: ">";
+
+
+
+  }
