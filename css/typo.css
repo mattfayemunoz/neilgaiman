@@ -17,6 +17,7 @@ font-size: 1.8em;
 
 html {font-size: 100%;} /*16px*/
 
+
 body {
   background-color: white;
   font-family: 'Roboto', sans-serif;
@@ -39,8 +40,8 @@ h1, h2, h3, h4, h5 {
   line-height: 1.15;
   color: #E6007E;
   -webkit-text-stroke-width: 0.8px;
-  -webkit-text-stroke-color: white;
-}
+  -webkit-text-stroke-color: white
+  }
 
 #pauteurc{
   color: #59C0ED;
